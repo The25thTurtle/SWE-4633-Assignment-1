@@ -8,6 +8,37 @@
         <script src="index.js" defer></script>
     </head>
     <body>
-        
+        <div id="container">
+            <div class="navbar">
+                <a href="index.html">Home |</a>
+                <a href="About.html">About |</a>
+                <a href="Skills&Projects.html">Skills & Projects |</a>
+                <a href="Resume.html">Resume |</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <hr>
+            <div>
+                <h2>Let's Connect</h2>
+                <p>I'm always interest in connecting with other developers, recruiters, and potential collaborators.
+                    If you'd like to learn more about me or my projects feel free to reach out.
+                </p>
+                <h3>Contact Information</h3>
+                <label>Email</label>
+                <a href="@email">myEmail@example.com</a><br>
+                <label>GitHub</label>
+                <a href="">My GitHub Profile</a><br>
+                <label>LinkedIn</label>
+                <a href="">My LinkedIn Profile</a>
+            </div>
+            <hr>
+            <form action="/submit_form" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="flname"><br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" email="theiremail"><br>
+                <label for="message">Message: </label>
+                <input type="text" id="message" message="theirmessage"><br><br>
+                <input type="submit" value="Submit">
+            </form>
     </body>
 </html>
