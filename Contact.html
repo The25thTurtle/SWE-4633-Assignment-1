@@ -35,14 +35,15 @@
                 <a href="https://www.linkedin.com/in/aaron-arroyo-5a908a27b/">My LinkedIn Profile</a>
             </section>
             <section class="card">
-            <form action="/submit_form" method="post">
+            <form id="contactForm">
                 <label for="name">Name: </label>
                 <input type="text" id="name" name="flname" required><br>
                 <label for="email">Email: </label>
-                <input type="text" id="email" email="theiremail" required><br>
+                <input type="text" id="email" name="theiremail" required><br>
                 <label for="message">Message: </label>
-                <input type="text" id="message" message="theirmessage" required><br><br>
-                <input type="submit" value="Submit">
+                <textarea type="text" id="message" name="theirmessage" required></textarea><br><br>
+                <button class="btn btn-secondary"type="submit">Submit</button>
+                <p id="formMessage"></p>
             </form>
            </section> 
         </div>
