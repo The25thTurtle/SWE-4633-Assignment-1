@@ -8,25 +8,27 @@
         <script src="index.js" defer></script>
     </head>
     <body>
-        <div id="container">
-            <div class="navbar">
-                <a href="index.html">Home |</a>
-                <a href="About.html">About |</a>
-                <a href="Skills&Projects.html">Skills & Projects |</a>
-                <a href="Resume.html">Resume |</a>
-                <a href="Contact.html">Contact</a>
+        <nav class="navbar">
+            <div class="container navbar-content">
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Skills&Projects.html">Skills & Projects</a>
+                    <a href="Resume.html">Resume</a>
+                    <a href="Contact.html">Contact</a>
+                </div>
             </div>
-            <hr>
-            <div>
+        </nav>
+        <main>
+        <div class="container">
+            <section class="card">
                 <h1>Aaron Arroyo</h1>
                 <p>Acworth, GA 30101 | +1 231 312 3421 | myEmail@example.com</p>
                 <h3>Professional Summary</h3>
-                <hr>
                 <p>I'm a dedicated Computer Science student excited to put my programming skills to work. With hands-on experience, I 
 thrive in team settings and have a keen eye for detail. Highly adaptable, I'm always ready for new challenges. </p>
-            </div>
-            <hr>
-            <div>
+            </section>
+            <section class="card">
                 <h3>Education</h3>
                 <p>Kennesaw State University <br>
                     Bachelor of Science in Computer Science <br>
@@ -40,9 +42,8 @@ thrive in team settings and have a keen eye for detail. Highly adaptable, I'm al
                     <li>Intro to Software Engineering</li>
                     <li>Cloud Software Development - Currently Taking</li>
                 </ul>
-            </div>
-            <hr>
-            <div>
+            </section>
+            <section class="card">
                 <h3>Technical Skills</h3>
                 <label>Languages</label>
                 <ul>
@@ -74,17 +75,15 @@ thrive in team settings and have a keen eye for detail. Highly adaptable, I'm al
                     <li>VS Code</li>
                     <li>IntelliJ IDEA</li>
                 </ul>
-            </div>
-            <hr>
-            <div>
+            </section>
+            <section class="card">
                 <h3>Projects</h3>
                 <ul>
                     <li>Social Media App</li>
                     <li>Campus Companion App - Currently In Progress</li>
                 </ul>
-            </div>
-            <hr>
-            <div>
+            </section>
+            <section class="card">
                 <h3>Work experience</h3>
                 <hr>
                 <h4>Customer Service Associate</h4>
@@ -126,8 +125,15 @@ customer satisfaction and team efficiency.
 improved customer satisfaction rates. 
                     </li>
                 </ul>
-            </div>
-
+            </section>
         </div>
+        </main>
+        <footer>
+            <div class="container">
+                <a href="">GitHub</a>
+                <a href="">LinkedIn</a>
+                <a href="">Email</a>
+            </div>
+        </footer>
     </body>
 </html>
